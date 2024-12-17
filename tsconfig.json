@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES2020", // Target modern Node.js runtime (Lambda supports Node.js 14+)
+    "module": "CommonJS", // Required for Node.js
+    "outDir": "./dist", // Output folder for compiled files
+    "strict": true, // Enable strict type checking
+    "esModuleInterop": true, // Allows default imports from CommonJS
+    "skipLibCheck": true // Speeds up the build by skipping type checks on libraries
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}
